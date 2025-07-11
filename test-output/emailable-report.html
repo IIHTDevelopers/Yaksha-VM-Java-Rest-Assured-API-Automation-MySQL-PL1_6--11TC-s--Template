@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">10</td><td class="num">85,399</td><td>PL1</td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="10">testcases.RestAssured_TestCases</td><td><a href="#m0">deleteLangById</a></td><td rowspan="1">1752216393669</td><td rowspan="1">1286</td></tr><tr class="failedeven"><td><a href="#m1">getActiveLanguages</a></td><td rowspan="1">1752216375370</td><td rowspan="1">18</td></tr><tr class="failedeven"><td><a href="#m2">getAdminOAuthList</a></td><td rowspan="1">1752216388703</td><td rowspan="1">11</td></tr><tr class="failedeven"><td><a href="#m3">getAuthProviders</a></td><td rowspan="1">1752216375951</td><td rowspan="1">12326</td></tr><tr class="failedeven"><td><a href="#m4">getDashboardShortcuts</a></td><td rowspan="1">1752216375609</td><td rowspan="1">6</td></tr><tr class="failedeven"><td><a href="#m5">getEmployeeList</a></td><td rowspan="1">1752216389095</td><td rowspan="1">6</td></tr><tr class="failedeven"><td><a href="#m6">getLocalizationValid</a></td><td rowspan="1">1752216375137</td><td rowspan="1">70</td></tr><tr class="failedeven"><td><a href="#m7">postOpenIdProvide</a></td><td rowspan="1">1752216399393</td><td rowspan="1">130</td></tr><tr class="failedeven"><td><a href="#m8">putLanguagePackage</a></td><td rowspan="1">1752216389412</td><td rowspan="1">4075</td></tr><tr class="failedeven"><td><a href="#m9">putModulesSettings</a></td><td rowspan="1">1752216395228</td><td rowspan="1">3952</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.RestAssured_TestCases</td><td><a href="#m10">loginWithSeleniumAndGetCookie</a></td><td rowspan="1">1752216314595</td><td rowspan="1">59129</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">testcases.RestAssured_TestCases#deleteLangById</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: deleteLangById must be implemented using proper RestAssured methods. expected [true] but found [false]
+	at testcases.RestAssured_TestCases.deleteLangById(RestAssured_TestCases.java:481)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcases.RestAssured_TestCases#getActiveLanguages</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;io.restassured.response.Response.getBody()&quot; because the return value of &quot;rest.CustomResponse.getResponse()&quot; is null
+	at testcases.RestAssured_TestCases.getActiveLanguages(RestAssured_TestCases.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.RestAssured_TestCases#getAdminOAuthList</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;io.restassured.response.Response.getBody()&quot; because the return value of &quot;rest.CustomResponse.getResponse()&quot; is null
+	at testcases.RestAssured_TestCases.getAdminOAuthList(RestAssured_TestCases.java:326)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testcases.RestAssured_TestCases#getAuthProviders</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;io.restassured.response.Response.getBody()&quot; because the return value of &quot;rest.CustomResponse.getResponse()&quot; is null
+	at testcases.RestAssured_TestCases.getAuthProviders(RestAssured_TestCases.java:268)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcases.RestAssured_TestCases#getDashboardShortcuts</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;io.restassured.response.Response.getBody()&quot; because the return value of &quot;rest.CustomResponse.getResponse()&quot; is null
+	at testcases.RestAssured_TestCases.getDashboardShortcuts(RestAssured_TestCases.java:193)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testcases.RestAssured_TestCases#getEmployeeList</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;io.restassured.response.Response.getBody()&quot; because the return value of &quot;rest.CustomResponse.getResponse()&quot; is null
+	at testcases.RestAssured_TestCases.getEmployeeList(RestAssured_TestCases.java:379)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testcases.RestAssured_TestCases#getLocalizationValid</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;io.restassured.response.Response.jsonPath()&quot; because the return value of &quot;rest.CustomResponse.getResponse()&quot; is null
+	at testcases.TestCodeValidator.validateResponseFields(TestCodeValidator.java:108)
+	at testcases.RestAssured_TestCases.getLocalizationValid(RestAssured_TestCases.java:98)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testcases.RestAssured_TestCases#postOpenIdProvide</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;io.restassured.response.Response.getBody()&quot; because the return value of &quot;rest.CustomResponse.getResponse()&quot; is null
+	at testcases.RestAssured_TestCases.postOpenIdProvide(RestAssured_TestCases.java:568)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testcases.RestAssured_TestCases#putLanguagePackage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.isEmpty()&quot; because &quot;adminLangId&quot; is null
+	at testcases.RestAssured_TestCases.putLanguagePackage(RestAssured_TestCases.java:434)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testcases.RestAssured_TestCases#putModulesSettings</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;io.restassured.response.Response.getBody()&quot; because the return value of &quot;rest.CustomResponse.getResponse()&quot; is null
+	at testcases.RestAssured_TestCases.putModulesSettings(RestAssured_TestCases.java:522)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testcases.RestAssured_TestCases#loginWithSeleniumAndGetCookie</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
